@@ -10,7 +10,7 @@ export default function Index(){
             </div>
 
             <div className="bg-green-100 lg:w-1/2 flex justify-center items-center">
-                <img src={photo} alt="This is a place holder for an image. It is generated via AI." className="max-w-full max-h-full" />
+                <img src={photo} className="max-w-full max-h-full" />
             </div>
         </div>
     )
