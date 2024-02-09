@@ -6,9 +6,7 @@ import Index from './components/home';
 function App() {
   return (
     <>
-    <Header/>
     <Index />
-    
     </>
   );
 }

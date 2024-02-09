@@ -1,14 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     const [menu, setMenu] = useState(false);
     const toggleMenu = () => { setMenu(!menu)};
 
-
-
-
     return (
-        <div className="bg-green-300 bg-gradient-to-r from-green-300 via-green-300 to-green-300 shadow-2xl">
+        <div className="bg-green-300 bg-gradient-to-r from-green-300 via-green-300 to-green-300 shadow-lg">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between p-4">
                     <div className="flex">
@@ -18,10 +16,11 @@ export default function Header() {
                 <div className="flex-grow "></div>
 
                 <div className="hidden lg:flex items-center space-x-6">
-                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Home</a>
-                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Experience</a>
-                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Contact</a>
-                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</a>
+                    
+                    <Link to={'/'} className="text-xl text-gray-700 hover:text-gray-900 ">Home</Link>
+                    <Link to={'/experiences'} className="text-xl text-gray-700 hover:text-gray-900 ">Experience</Link>
+                    <Link to={'/contact'} className="text-xl text-gray-700 hover:text-gray-900 ">Contact</Link>
+                    <Link to={'/blog'} className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</Link>
                 </div>
 
                 {/* <!-- Mobile menu icon (shown on small screens) --> */}
@@ -50,10 +49,10 @@ export default function Header() {
                 
                         {/* Menu items */}
                         <div className="flex flex-col space-y-4 px-4">
-                            <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Home</a>
-                            <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Experience</a>
-                            <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Contact</a>
-                            <a href="#" className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</a>
+                            <Link onClick={toggleMenu} to={'/'} className="text-xl text-gray-700 hover:text-gray-900 ">Home</Link>
+                            <Link onClick={toggleMenu} to={'/experiences'} className="text-xl text-gray-700 hover:text-gray-900 ">Experience</Link>
+                            <Link onClick={toggleMenu} to={'/contact'} className="text-xl text-gray-700 hover:text-gray-900 ">Contact</Link>
+                            <Link onClick={toggleMenu} to={'/blog'} className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</Link>
                         </div>
                         
                     </div>

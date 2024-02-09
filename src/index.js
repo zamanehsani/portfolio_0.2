@@ -1,43 +1,56 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import App from './App';
+import Header from './components/header';
 import NotFoundPage from './components/NotFoundPage';
 import Blog from './components/blog/blog';
 import BlogDetails from './components/blog/blogDetail';
+import Experience from './components/experience';
+import Contact from './components/contact';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// Define Layout component
+const Layout = ({ children }) => {
+  return (
+    <div className=''>
+      <Header/>
+      <main className=''>{children}</main>
+      {/* footer here */}
+    </div>
+  );
+};
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-    errorElement: <NotFoundPage />
+    element: <Layout><App /></Layout>,
+    errorElement:<Layout><NotFoundPage /></Layout>
   },
   {
-
-  },
-  {
-    path: "/about",
-    element: <h1>About</h1>,
+    path: "/experiences",
+    element: <Layout><Experience /></Layout>,
   },
   {
     path: "/contact",
-    element: <h1>Contact</h1>,
+    element: <Layout><Contact /></Layout>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Layout><Blog /></Layout>,
   },
   {
     path: "/blog/:id",
-    element: <BlogDetails />,
+    element: <Layout><BlogDetails /></Layout>,
   }
 
-
 ])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
