@@ -4,10 +4,45 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import NotFoundPage from './components/NotFoundPage';
+import Blog from './components/blog/blog';
+import BlogDetails from './components/blog/blogDetail';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <NotFoundPage />
+  },
+  {
+
+  },
+  {
+    path: "/about",
+    element: <h1>About</h1>,
+  },
+  {
+    path: "/contact",
+    element: <h1>Contact</h1>,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/blog/:id",
+    element: <BlogDetails />,
+  }
+
+
+])
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
