@@ -6,7 +6,7 @@ export default function Header() {
     const toggleMenu = () => { setMenu(!menu)};
 
     return (
-        <div className="bg-green-300 bg-gradient-to-r from-green-300 via-green-300 to-green-300 shadow-lg">
+        <div className="shadow">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between p-4">
                     <div className="flex">
@@ -16,47 +16,59 @@ export default function Header() {
                 <div className="flex-grow "></div>
 
                 <div className="hidden lg:flex items-center space-x-6">
-                    
-                    <Link to={'/'} className="text-xl text-gray-700 hover:text-gray-900 ">Home</Link>
-                    <Link to={'/experiences'} className="text-xl text-gray-700 hover:text-gray-900 ">Experience</Link>
-                    <Link to={'/contact'} className="text-xl text-gray-700 hover:text-gray-900 ">Contact</Link>
-                    <Link to={'/blog'} className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</Link>
+                    <Link to={'https://linkedin.com/in/zamanehsani'} 
+                        className="text-xl text-green-800 hover:text-black font-bold ">LinkedIn</Link>
+                    <Link to={'https://github.com/zamanehsani'}      
+                        className="text-xl text-green-800 hover:text-black font-bold ">Github</Link>
+                    <Link to={'https://facebook.com/zamanehsani'}    
+                        className="text-xl text-green-800 hover:text-black font-bold ">Facebook</Link>
+                    <Link to={'https://twitter.com/zamanehsani'}     
+                        className="text-xl text-green-800 hover:text-black font-bold ">Twitter - X</Link>
+                    <Link to={'https://instagram.com/zaman_ehsani'}  
+                        className="text-xl text-green-800 hover:text-black font-bold ">Instagram</Link>
                 </div>
 
                 {/* <!-- Mobile menu icon (shown on small screens) --> */}
                 <div className="lg:hidden">
                     <button onClick={toggleMenu}  className="text-gray-700 hover:text-gray-900">
                         <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
                     </button>
                 </div>
 
                     {/* Off-screen menu */}
-                    <div className={`fixed inset-y-0 right-0 bg-green-300 w-80 p-3 
+                    <div className={`fixed inset-y-0 right-0 bg-yellow-200 w-72 p-3 
                                 transform lg:hidden transition-transform duration-300  z-20
                                 ease-in-out ${menu ? 'translate-x-0':'translate-x-full'}`}>
 
                         {/* Header */}
                         <div className="flex items-center justify-between p-3">
-                            <h1 className="font-bold text-green-800 text-3xl">Zaman Ehsani</h1>
+                            <h1 className="font-extrabold text-green-900 text-3xl">Zaman Ehsani</h1>
                             <button onClick={toggleMenu} className="text-gray-700 hover:text-gray-900">
-                                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg className="h-6 w-6 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"></path>
                                 </svg>
                             </button>
                         </div>
+                        <div className="mx-2">
+                            <span className="text-green-800 break-words">Connect with me on social media platforms. DMs are open</span>
+                        </div>
                 
                         {/* Menu items */}
-                        <div className="flex flex-col space-y-4 px-4">
-                            <Link onClick={toggleMenu} to={'/'} className="text-xl text-gray-700 hover:text-gray-900 ">Home</Link>
-                            <Link onClick={toggleMenu} to={'/experiences'} className="text-xl text-gray-700 hover:text-gray-900 ">Experience</Link>
-                            <Link onClick={toggleMenu} to={'/contact'} className="text-xl text-gray-700 hover:text-gray-900 ">Contact</Link>
-                            <Link onClick={toggleMenu} to={'/blog'} className="text-xl text-gray-700 hover:text-gray-900 ">Blogs</Link>
+                        <div className="flex flex-col space-y-6 px-4 mt-6">
+                        <Link to={'https://linkedin.com/in/zamanehsani'} 
+                            className="text-xl text-green-900 hover:text-black font-bold ">LinkedIn</Link>
+                        <Link to={'https://github.com/zamanehsani'}      
+                            className="text-xl text-green-900 hover:text-black font-bold ">Github</Link>
+                        <Link to={'https://facebook.com/zamanehsani'}    
+                            className="text-xl text-green-900 hover:text-black font-bold ">Facebook</Link>
+                        <Link to={'https://twitter.com/zamanehsani'}     
+                            className="text-xl text-green-900 hover:text-black font-bold ">Twitter - X</Link>
+                        <Link to={'https://instagram.com/zaman_ehsani'}  
+                            className="text-xl text-green-900 hover:text-black font-bold ">Instagram</Link>
                         </div>
-                        
                     </div>
-
                 </div>
             </div>
         </div>

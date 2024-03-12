@@ -17,7 +17,7 @@ import Contact from './components/contact';
 // Define Layout component
 const Layout = ({ children }) => {
   return (
-    <div className=''>
+    <div className='bg-yellow-100'>
       <Header/>
       <main className=''>{children}</main>
       {/* footer here */}
