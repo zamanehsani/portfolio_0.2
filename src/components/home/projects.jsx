@@ -23,7 +23,7 @@ export default function Projects(){
                 </p>
                
                 </div>
-                <div className=" grid p-10">
+                <div className=" grid lg:px-10 pt-5">
                 <img
                     src={car}
                     alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
@@ -42,7 +42,7 @@ export default function Projects(){
                 </p>
                
                 </div>
-                <div className="lg:order-first grid p-10">
+                <div className="lg:order-first grid lg:px-10">
                 <img
                     src={vessel}
                     alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
@@ -54,20 +54,17 @@ export default function Projects(){
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center  px-8 py-2 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
                 <div className='p-10 sm:px-0'>
                     <span className='px-2 py-1 m-0 rounded-full bg-green-800 font-extrabold text-white'>3</span>
-                <h2 className="text-2xl font-bold tracking-tight text-gray-900">BeautyBrands.ae</h2>
-                <p className=" text-gray-500">
-                    Designed, Developed beautybrands.ae shopping website. This website is backed by Shopify and stripe. 
-                    It handles daily volume of 200 to 500 orders. 
-                </p>
-                
+                    <h2 className="text-2xl font-bold tracking-tight text-gray-900">BeautyBrands.ae</h2>
+                    <p className=" text-gray-500">
+                        Designed, Developed beautybrands.ae shopping website. This website is backed by Shopify and stripe. 
+                        It handles daily volume of 200 to 500 orders. 
+                    </p>
                 </div>
-                <div className="grid p-10">
+                <div className="grid lg:px-10">
                 <img
                     src={beautybrands}
                     alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-                    className="rounded-lg bg-gray-100"
-                />
-              
+                    className="rounded-lg bg-gray-100"/>
                 </div>
             </div>
             <div className='flex items-center justify-center p-10'>
