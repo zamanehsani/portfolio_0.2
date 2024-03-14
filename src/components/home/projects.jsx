@@ -1,6 +1,6 @@
-import car from '../../car.png';
-import vessel from '../../vessel-local.png';
-import beautybrands from '../../beautybrands.ae.png';
+import car from '../../images/car.png';
+import vessel from '../../images/vessel-local.png';
+import beautybrands from '../../images/beautybrands.ae.png';
 
 export default function Projects(){
     return (

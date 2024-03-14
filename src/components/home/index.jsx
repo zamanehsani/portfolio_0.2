@@ -1,4 +1,4 @@
-import designer from '../../Designer.png';
+import designer from '../../images/Designer.png';
 import Projects from './projects';
 import IconGallery from './iconss';
 
