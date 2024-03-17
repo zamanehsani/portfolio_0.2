@@ -65,7 +65,7 @@ export default function Projects(){
                     <p className='text-gray-600'>Hosted in AWS UAE region on linux based EC2. Files are stored in AWS S3 bucket.</p>
                
                 </div>
-                <div className="lg:order-first grid lg:px-10">
+                <div className="lg:order-first grid lg:px-10 pt-5">
                 <img
                     src={vessel}
                     alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
@@ -95,7 +95,7 @@ export default function Projects(){
                    
             
                 </div>
-                <div className="grid lg:px-10">
+                <div className="grid lg:px-10 pt-5">
                 <img
                     src={beautybrands}
                     alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
