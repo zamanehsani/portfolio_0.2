@@ -39,39 +39,39 @@ const IconGallery = () => {
   return (
     <div className='lg:w-10/12 mx-auto p-5'>
       <div className='flex gap-8 flex-wrap items-center justify-center '>
-        <img alt="Icon of tools i have used." src={awscloudfront} className='h-10 w-10' />
+        {/* <img alt="Icon of tools i have used." src={awscloudfront} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={awsec2} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={awsecs} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={awsiam} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={awsrds} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={awss3} className='h-10 w-10' />
-        <img alt="Icon of tools i have used." src={awsses} className='h-10 w-10' />
+        <img alt="Icon of tools i have used." src={awsses} className='h-10 w-10' /> */}
+        <img alt="Icon of tools i have used." src={javascript} className='w-20' />
+        <img alt="Icon of tools i have used." src={python } className='w-20' />
         <img alt="Icon of tools i have used." src={aws } className='w-32' />
         <img alt="Icon of tools i have used." src={django } className=' w-32' />
         <img alt="Icon of tools i have used." src={docker } className='w-32' />
+        <img alt="Icon of tools i have used." src={nextjs } className='w-32' />
+        <img alt="Icon of tools i have used." src={nodejs } className='w-32' />
         <img alt="Icon of tools i have used." src={express } className=' w-20' />
         <img alt="Icon of tools i have used." src={fastapi } className=' w-20' />
+        <img alt="Icon of tools i have used." src={react } className='w-32' />
+        <img alt="Icon of tools i have used." src={typescripticon } className='w-20' />
         <img alt="Icon of tools i have used." src={git } className=' w-32' />
         <img alt="Icon of tools i have used." src={github } className=' w-20' />
         <img alt="Icon of tools i have used." src={gitlab} className='h-10 w-10' />
         <img alt="Icon of tools i have used." src={graphene } className='w-16' />
         <img alt="Icon of tools i have used." src={graphql } className='w-20' />
-        <img alt="Icon of tools i have used." src={javascript} className='w-20' />
         <img alt="Icon of tools i have used." src={jwt} className='h-12' />
         <img alt="Icon of tools i have used." src={kubernetes} className='h-16' />
         <img alt="Icon of tools i have used." src={mongodb } className='w-32' />
         <img alt="Icon of tools i have used." src={mysql } className='w-20' />
         <img alt="Icon of tools i have used." src={netlify } className='w-32' />
-        <img alt="Icon of tools i have used." src={nextjs } className='w-32' />
-        <img alt="Icon of tools i have used." src={nodejs } className='w-32' />
         <img alt="Icon of tools i have used." src={postgresql } className='w-20' />
         <img alt="Icon of tools i have used." src={pwa } className=' w-20' />
-        <img alt="Icon of tools i have used." src={python } className='w-20' />
         <img alt="Icon of tools i have used." src={reactqueryicon } className='w-20' />
         <img alt="Icon of tools i have used." src={reactrouter } className='w-32' />
-        <img alt="Icon of tools i have used." src={react } className='w-32' />
         <img alt="Icon of tools i have used." src={strapi} className='w-20' />
-        <img alt="Icon of tools i have used." src={typescripticon } className='w-20' />
         <img alt="Icon of tools i have used." src={visualstudiocode} className='w-20' />
       </div>
     </div>

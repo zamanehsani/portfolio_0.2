@@ -33,8 +33,8 @@ export default function Index(){
                     </div>
                     <div className='text-center mb-20'>
                         <p className='break-words text-yellow-200 text-2xl'>
-                        I'm a seasoned Full Stack Web Developer with 6 plus years of experience in software development 
-                        and project management in software. I am currently living in Dubai. 
+                        I am an experienced Full Stack Web Developer with over 6 years of experience in software development and project management. 
+                        Currently based in Dubai, I bring expertise in both technical execution and project leadership to deliver high-quality software solutions.
                         </p>
                     </div>
                 </div>
@@ -49,16 +49,16 @@ export default function Index(){
                                     Frontend
                                 </div>
                                 <div className="text-base leading-7 text-gray-600">
-                                 Helping team, projects and ideas on the front line.
-                                 I have used, worked with design tools, and frameworks for building amazing designs. 
-                                
+                                At the forefront, I assist teams, projects, and ideas. 
+                                I've leveraged design tools and frameworks to create stunning designs and enhance project outcomes.
                                 </div>
 
                             </div>
                             <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                                 <dt className="text-base leading-7 text-gray-600">
-                                    Led and managed diverse team globally. "It's the people!"
-                                    Led diverse, dynamic teams of developer, designer, tester, data, of globally and remotely.
+                                Led and managed diverse teams globally, recognizing that 'It's the people!' 
+                                Led dynamic teams comprising developers, designers, testers, and data professionals, 
+                                fostering collaboration across global and remote locations.
                                 </dt>
                                 <dd className="order-first text-3xl font-semibold tracking-tight text-green-900 sm:text-5xl">
                                  Management
@@ -66,8 +66,9 @@ export default function Index(){
                             </div>
                             <div className="mx-auto flex max-w-xs flex-col gap-y-4 ">
                                 <dt className="text-base leading-7 text-gray-600">
-                                    Equiped with Backend services' skills & knowledge.
-                                    Experienced Python, Javascript Developer make systems that runs smoothly and scalable.
+                                Skilled in backend services and equipped with extensive knowledge, 
+                                I am an experienced Python and JavaScript developer. 
+                                I specialize in crafting systems that operate smoothly and scale effectively.
                                 </dt>
                                 <dd className="order-first text-3xl font-semibold tracking-tight text-green-900 sm:text-5xl">
                                 Backend
