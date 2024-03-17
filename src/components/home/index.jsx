@@ -79,7 +79,7 @@ export default function Index(){
                         <div className='flex flex-col py-10'>
                            <div className='flex items-center justify-center'>
                                 <h1 className=' text-xl font-semibold tracking-tight text-green-900 text-center'>
-                                    Tools, Frameworks or langauges I use thougthout my work.
+                                    Tools, Frameworks and langauges I use thougthout my work.
                                 </h1>
                            </div>
                             <div>

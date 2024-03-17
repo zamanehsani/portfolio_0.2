@@ -7,8 +7,8 @@ export default function Projects(){
         <>
          <div className="bg-yellow-100">
             <div className='flex flex-col items-center justify-center'>
-            <h1 className='leading-10 text-4xl font-bold text-green-900'>Recent Project</h1>
-            <span className='text-sm mx-auto text-center px-10'>Take a look at some of my very recent projects. For more, reach me out! </span>
+            <h1 className='leading-10 text-4xl font-bold text-green-900'>Recent Projects</h1>
+            <span className='text-sm mx-auto text-center px-10'>Take a look at some of my very recent projects. </span>
             </div>
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center  px-8 py-2 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
                 <div className=''>
@@ -44,7 +44,7 @@ export default function Projects(){
                 </div>
             </div>
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center  px-8 py-2 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
-                <div className='p-10 sm:px-0'>
+                <div className=''>
                     <h2 className=" flex items-center text-2xl font-bold tracking-tight">
                         <a href="https://github.com/zamanehsani/local" target='_blank'>Local Invoices</a> 
                         <span className="px-2">
@@ -75,7 +75,7 @@ export default function Projects(){
                 </div>
             </div>
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center  px-8 py-2 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
-                <div className='p-10 sm:px-0'>
+                <div className=''>
                 <h2 className=" flex items-center text-2xl font-bold tracking-tight">
                         <a href="https://beautybrands.ae" target='_blank'>beautybrands.ae</a> 
                         <span className="px-2">
